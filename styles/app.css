@@ -1,0 +1,82 @@
+
+body{
+    background-color: beige;
+}
+
+ul li{
+    background-color: #1e4b72;
+    width: 100%;
+    list-style: none;
+    font-size: 20px;
+    margin: 10px;
+    font-weight: 900;
+    padding: 10px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:#fff;
+}
+.spnaContainer{
+    display: flex;
+
+}
+.spnaContainer i{
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+form input{
+    border: none;
+    outline: none;
+    padding: 20px;
+    width: 350px;
+    margin: auto;
+    border-radius: 0.5em;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+}
+label{
+    font-size: 20px;
+    margin: 5px;
+    font-weight: 900;
+}
+#submit{
+    width: 180px;
+    cursor:pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 20px;
+}
+.contain{
+    width: 50%;
+    margin: auto;
+    background-color: #1e4b72;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.container-fluid{
+    background-color: #f7ffff;
+    height: 100vh;
+}
+#blogs{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.card {
+    width: 300px;
+    margin: 20px;
+}
